@@ -1,8 +1,7 @@
-{\rtf1\ansi\ansicpg1251\cocoartf1504\cocoasubrtf830
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+# Document Parsing
+Implementation of this code was very important for Named-Entity-Recognition of court documents. These documents were created in Microsoft Word and there was no library or simple code to convert sentences from Docx to good format for LSTM model. This code takes out the markup and the texts from the document using XML
 
-\f0\fs24 \cf0 ### Important code for Docx parsing and NER}
+### docx_one_document.ipynb
+Preparation of one document
+### models_for_appeal.ipynb
+Preparation for all documents
